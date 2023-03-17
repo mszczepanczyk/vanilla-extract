@@ -1,6 +1,6 @@
 import type { ComplexStyleRule } from '@vanilla-extract/css';
 
-type RecipeStyleRule = ComplexStyleRule | string;
+export type RecipeStyleRule = ComplexStyleRule | string;
 
 export type VariantDefinitions = Record<string, RecipeStyleRule>;
 
